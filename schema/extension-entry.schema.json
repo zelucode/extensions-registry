@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://automation-os-extensions-registry/schema/extension-entry.schema.json",
+  "title": "Automation OS Extension Registry Entry",
+  "description": "One entry describing a single published .aosext extension. The .aosext file itself is never stored in this repo -- it lives in the author's own repo/release, referenced here by downloadUrl. See docs/roadmap/RND_EXTENSION_REGISTRY.md in the automation-os repo for the full design.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "author",
+    "description",
+    "category",
+    "latestVersion",
+    "downloadUrl",
+    "sha256"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Must match the id in the extension's own manifest.json. Lowercase letters, digits, hyphens; starts with a letter or digit; max 64 chars.",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "authorProfile": {
+      "type": ["string", "null"],
+      "description": "Host-neutral profile/homepage URL for the author (any git host, not assumed to be GitHub).",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "homepage": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "latestVersion": {
+      "type": "string",
+      "description": "Semver, e.g. 1.0.0",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "minAppVersion": {
+      "type": ["string", "null"],
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "downloadUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct download URL for the .aosext file matching latestVersion."
+    },
+    "sigUrl": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Direct download URL for the detached .sig file matching downloadUrl, if the extension is signed (Phase 2d). The app downloads this to a <tempfile>.sig sidecar before verification."
+    },
+    "sha256": {
+      "type": "string",
+      "description": "SHA-256 of the .aosext file at downloadUrl, lowercase hex.",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "true only once both signed (2d) and reviewed by a registry maintainer.",
+      "default": false
+    },
+    "revoked": {
+      "type": "boolean",
+      "description": "true if this extension (or this version) has been de-listed for a safety reason. The app never auto-uninstalls on this -- it surfaces a warning badge with revokedReason and a one-click uninstall shortcut.",
+      "default": false
+    },
+    "revokedReason": {
+      "type": ["string", "null"],
+      "maxLength": 500
+    }
+  }
+}
