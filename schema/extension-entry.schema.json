@@ -67,7 +67,7 @@
     "sigUrl": {
       "type": ["string", "null"],
       "format": "uri",
-      "description": "Direct download URL for the detached .sig file matching downloadUrl, if the extension is signed (Phase 2d). The app downloads this to a <tempfile>.sig sidecar before verification."
+      "description": "Direct download URL for the detached .sig file matching downloadUrl, if the extension is signed. The app downloads this to a <tempfile>.sig sidecar before verification."
     },
     "sha256": {
       "type": "string",
@@ -76,7 +76,7 @@
     },
     "verified": {
       "type": "boolean",
-      "description": "true only once both signed (2d) and reviewed by a registry maintainer.",
+      "description": "true only once both signed and reviewed by a registry maintainer.",
       "default": false
     },
     "revoked": {
