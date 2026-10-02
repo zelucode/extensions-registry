@@ -1,0 +1,15 @@
+{
+  "id": "pdf-tools",
+  "name": "PDF Tools",
+  "author": "DeskStride",
+  "description": "Merge and split PDF files, with a PDF Inspector page to check page count, metadata and sizes.",
+  "category": "documents",
+  "latestVersion": "1.2.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.0.dsext",
+  "sha256": "226cd0afd088c6f6be0c7211f65deec687e4c25a80f9fc20d8c8506a91137bb2",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.0.dsext.sig",
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}
