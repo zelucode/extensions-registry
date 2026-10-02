@@ -1,0 +1,19 @@
+{
+  "id": "qr-code-tools",
+  "name": "QR Code Tools",
+  "author": "DeskStride",
+  "description": "Generate a QR code PNG from text, or decode an existing QR code image back to text.",
+  "category": "utilities",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/qr-code-tools/qr-code-tools-1.0.1.dsext",
+  "sha256": "010777fc45d6ee93e4faf9a9939e669d579c4b76987a6bd2f60883a4fd3ab782",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/qr-code-tools/qr-code-tools-1.0.1.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}
