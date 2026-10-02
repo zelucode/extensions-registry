@@ -6,8 +6,9 @@ this registry only points at it.
 
 ## Submission flow (single-maintainer, light review -- Obsidian's model)
 
-1. Publish your `.aosext` as a downloadable file (e.g. a Gitea/GitHub
-   Release asset on your own repo). If it's signed (recommended --
+1. Publish your package as a downloadable file at any public URL (e.g. a Gitea/GitHub
+   Release asset on your own repo, or a shared packages repo; see the README's
+   "Two ways to host a package"). If it's signed (recommended --
    `extension-cli`'s `keygen`/`sign` commands), publish the detached
    `.sig` file alongside it.
 2. Compute its SHA-256: `aos_ext_cli.py sha256 your-extension.aosext`.

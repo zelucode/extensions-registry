@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://automation-os-extensions-registry/schema/extension-entry.schema.json",
   "title": "Automation OS Extension Registry Entry",
-  "description": "One entry describing a single published .aosext extension. The .aosext file itself is never stored in this repo -- it lives in the author's own repo/release, referenced here by downloadUrl. See docs/roadmap/RND_EXTENSION_REGISTRY.md in the automation-os repo for the full design.",
+  "description": "One entry describing a single published .aosext extension. The package file itself is never stored in this repo. downloadUrl may point at ANY public host: an author's own repo/release, or a shared packaged-packages repo holding only built packages (see the README section Two ways to host a package). See docs/roadmap/RND_EXTENSION_REGISTRY.md in the automation-os repo for the full design.",
   "type": "object",
   "required": [
     "id",
@@ -73,6 +73,11 @@
       "type": "string",
       "description": "SHA-256 of the .aosext file at downloadUrl, lowercase hex.",
       "pattern": "^[a-f0-9]{64}$"
+    },
+    "permissions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Mirror of the permissions declared in the extension's manifest.json. Written by publish tooling; omitted when the manifest declares none."
     },
     "verified": {
       "type": "boolean",

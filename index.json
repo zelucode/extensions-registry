@@ -16,6 +16,45 @@
       "verified": true,
       "revoked": false,
       "revokedReason": null
+    },
+    "acme-qr-code-tools": {
+      "id": "acme-qr-code-tools",
+      "name": "Acme QR Code Tools",
+      "author": "DeskStride",
+      "description": "Generate a QR code PNG from text, or decode an existing QR code image back to text.",
+      "category": "utilities",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/acme-qr-code-tools/acme-qr-code-tools-1.0.1.dsext",
+      "sha256": "fb072929cffa2f55d8445611ef06c94b66fcb52edadcc67b97802e40fe562181",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/acme-qr-code-tools/acme-qr-code-tools-1.0.1.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "acme-webhook-notifier": {
+      "id": "acme-webhook-notifier",
+      "name": "Acme Webhook Notifier",
+      "author": "DeskStride",
+      "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route -- a worked example of Phase 3 settings (incl. secrets) and HTTP routes.",
+      "category": "integrations",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/acme-webhook-notifier/acme-webhook-notifier-1.0.1.dsext",
+      "sha256": "dce23ddab80ca60ea17246bb78fba9d7c06d0a8759fc1cea8c872e2f150fcb3e",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/acme-webhook-notifier/acme-webhook-notifier-1.0.1.dsext.sig",
+      "permissions": [
+        "network",
+        "secrets",
+        "httpRoutes"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
     }
   }
 }
