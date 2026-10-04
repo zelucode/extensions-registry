@@ -1,0 +1,18 @@
+{
+  "id": "pdf-advanced-tools",
+  "name": "PDF Advanced Tools",
+  "author": "DeskStride",
+  "description": "Advanced PDF manipulation using pypdfium2 - form filling, page operations, document editing, and more.",
+  "category": "documents",
+  "latestVersion": "2.2.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-advanced-tools/pdf-advanced-tools-2.2.0.dsext",
+  "sha256": "b6551bbc48480fad583c215808f6a7f8715f5878fa9442e01be50d0de80a499e",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-advanced-tools/pdf-advanced-tools-2.2.0.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

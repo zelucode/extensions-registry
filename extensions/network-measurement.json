@@ -1,0 +1,20 @@
+{
+  "id": "network-measurement",
+  "name": "Speedtest + iperf3 Network Measurement Bridge",
+  "author": "DeskStride",
+  "description": "WAN internet speed tests, LAN throughput benchmarks via iperf3, and host ping/latency measurement with JSON or HTML reports.",
+  "category": "network",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/network-measurement/network-measurement-1.0.1.dsext",
+  "sha256": "44dccf6e1e3460bf3a1aaee3ad0b067fb531e80d2150caf01a4a62a652abe7fd",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/network-measurement/network-measurement-1.0.1.dsext.sig",
+  "permissions": [
+    "network",
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

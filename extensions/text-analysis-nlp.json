@@ -1,0 +1,19 @@
+{
+  "id": "text-analysis-nlp",
+  "name": "Text Analysis & NLP",
+  "author": "DeskStride",
+  "description": "Natural language processing nodes for sentiment analysis, entity extraction, text classification, keyword extraction, language detection, and summarization.",
+  "category": "ai",
+  "latestVersion": "1.2.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/text-analysis-nlp/text-analysis-nlp-1.2.0.dsext",
+  "sha256": "5110803055c3bd47f46a3cbc6c62df775d7b58e2f5b08a52b571b830fa0c21e6",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/text-analysis-nlp/text-analysis-nlp-1.2.0.dsext.sig",
+  "permissions": [
+    "network",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "audacity-batch-audio",
+  "name": "Audacity Batch Audio",
+  "author": "DeskStride",
+  "description": "Normalize, apply effects to and convert audio files using Audacity's scripting pipe (Windows). Audacity must be installed with mod-script-pipe enabled.",
+  "category": "media",
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/audacity-batch-audio/audacity-batch-audio-1.0.0.dsext",
+  "sha256": "3873430c38bc2b58f1dd7d2d87faae0321f307f899979e13ff5ad452e879b9b0",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/audacity-batch-audio/audacity-batch-audio-1.0.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

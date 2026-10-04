@@ -1,0 +1,21 @@
+{
+  "id": "sentinel-ai-automation",
+  "name": "Sentinel AI Automation",
+  "author": "DeskStride",
+  "description": "AI-powered browser automation using Sentinel library via Node.js bridge. Describe actions in plain English and let AI figure out selectors, clicks, and data extraction.",
+  "category": "ai",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext",
+  "sha256": "0adb7946ccde49faffcc365cd2c0a138c75d5f435433aa782ff539d61c4c2467",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext.sig",
+  "permissions": [
+    "network",
+    "shell",
+    "secrets",
+    "desktopInput"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

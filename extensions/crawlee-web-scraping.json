@@ -1,0 +1,19 @@
+{
+  "id": "crawlee-web-scraping",
+  "name": "Crawlee Web Scraping",
+  "author": "DeskStride",
+  "description": "Web scraping and crawling using Crawlee library via Node.js bridge. Supports HTTP crawling, browser automation, data extraction, and advanced crawling patterns.",
+  "category": "web",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext",
+  "sha256": "90505182e4d35cfe4e5a68679dccb99ac0080bc5070df9c157949debc6b8daa5",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext.sig",
+  "permissions": [
+    "network",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

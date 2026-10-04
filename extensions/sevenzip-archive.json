@@ -1,0 +1,20 @@
+{
+  "id": "sevenzip-archive",
+  "name": "7-Zip Archive Management",
+  "author": "DeskStride",
+  "description": "Create, extract, and manage archives using 7-Zip CLI with support for password protection and batch operations.",
+  "category": "files",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sevenzip-archive/sevenzip-archive-1.1.1.dsext",
+  "sha256": "c84097c1c1dea978ef8927801e6357c2e6749b849443a7042f8df670dc21eb38",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sevenzip-archive/sevenzip-archive-1.1.1.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

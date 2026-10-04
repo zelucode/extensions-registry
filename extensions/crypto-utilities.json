@@ -1,0 +1,18 @@
+{
+  "id": "crypto-utilities",
+  "name": "Data Encryption / Crypto Utilities",
+  "author": "DeskStride",
+  "description": "Cryptographic utilities for file/string encryption, signing, key generation, and secure data operations.",
+  "category": "security",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crypto-utilities/crypto-utilities-1.1.1.dsext",
+  "sha256": "8a14c39753bb8643e14a25ffaf5fc6cc1428aa2d8c904990369d24ee8edf7e0e",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crypto-utilities/crypto-utilities-1.1.1.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "image-processing-extension",
+  "name": "Image Processing",
+  "author": "DeskStride",
+  "description": "Resize, crop, convert, watermark and thumbnail images with Pillow, one at a time or a whole folder at once. Originals are never overwritten.",
+  "category": "media",
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/image-processing-extension/image-processing-extension-1.0.0.dsext",
+  "sha256": "c263c90b0a5e96499426242502cd53183d400c399cc08c7c9b3c2f55e9ed22e0",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/image-processing-extension/image-processing-extension-1.0.0.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

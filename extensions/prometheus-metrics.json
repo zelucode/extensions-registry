@@ -1,0 +1,18 @@
+{
+  "id": "prometheus-metrics",
+  "name": "Prometheus Metrics Exporter",
+  "author": "DeskStride",
+  "description": "Export workflow execution metrics and expose a Prometheus-compatible /metrics endpoint for monitoring and observability.",
+  "category": "monitoring",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/prometheus-metrics/prometheus-metrics-1.1.0.dsext",
+  "sha256": "7c2d2744e2e8ac75c9c4307272906b41fed975c26504c6c6fd66455d4968f769",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/prometheus-metrics/prometheus-metrics-1.1.0.dsext.sig",
+  "permissions": [
+    "httpRoutes"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

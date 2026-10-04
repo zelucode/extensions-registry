@@ -1,0 +1,20 @@
+{
+  "id": "discord-integration",
+  "name": "Discord Integration",
+  "author": "DeskStride",
+  "description": "Discord bot integration for sending messages, posting to channels, and uploading files via webhook or bot token.",
+  "category": "integrations",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext",
+  "sha256": "90d16cb29fddd718dd6ac7ae5b116645068cb50d7891a141ab3b469c1e1c0f89",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext.sig",
+  "permissions": [
+    "network",
+    "filesystem",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

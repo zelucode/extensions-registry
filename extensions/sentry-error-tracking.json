@@ -1,0 +1,19 @@
+{
+  "id": "sentry-error-tracking",
+  "name": "Sentry Error Tracking",
+  "author": "DeskStride",
+  "description": "Capture exceptions, add breadcrumbs, and set user/context for Sentry error tracking in workflows.",
+  "category": "monitoring",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext",
+  "sha256": "96025ba0199f1a6f05c9c9fb2f942eb195dd4c1a6b3b7ca32458bedb4687900a",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext.sig",
+  "permissions": [
+    "network",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

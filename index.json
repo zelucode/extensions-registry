@@ -1,15 +1,491 @@
 {
   "extensions": {
+    "advanced-excel-tools": {
+      "id": "advanced-excel-tools",
+      "name": "Advanced Excel Tools",
+      "author": "DeskStride",
+      "description": "Advanced Excel processing nodes: pivot tables, conditional formatting, chart generation, formula application, cell styling, column auto-fit, sheet protection, and XLS-to-XLSX conversion.",
+      "category": "documents",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/advanced-excel-tools/advanced-excel-tools-1.1.0.dsext",
+      "sha256": "893c155633ad4ca616327022900386f546d5bdc8d5a0c6db24f7f605339f781c",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/advanced-excel-tools/advanced-excel-tools-1.1.0.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "argos-translate": {
+      "id": "argos-translate",
+      "name": "Argos Translate",
+      "author": "DeskStride",
+      "description": "Offline neural machine translation using Argos Translate. Translate text between languages using locally installed models. Models must be downloaded and installed separately via the provided nodes.",
+      "category": "ai",
+      "latestVersion": "1.0.4",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext",
+      "sha256": "030436842c844a0206d0f1238eb62a95ca0c81ba30da4e8d3030176a2a7b1404",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "audacity-batch-audio": {
+      "id": "audacity-batch-audio",
+      "name": "Audacity Batch Audio",
+      "author": "DeskStride",
+      "description": "Normalize, apply effects to and convert audio files using Audacity's scripting pipe (Windows). Audacity must be installed with mod-script-pipe enabled.",
+      "category": "media",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/audacity-batch-audio/audacity-batch-audio-1.0.0.dsext",
+      "sha256": "3873430c38bc2b58f1dd7d2d87faae0321f307f899979e13ff5ad452e879b9b0",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/audacity-batch-audio/audacity-batch-audio-1.0.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "bitwarden-secrets": {
+      "id": "bitwarden-secrets",
+      "name": "Bitwarden Secrets Integration",
+      "author": "DeskStride",
+      "description": "Read secrets from Bitwarden vault via CLI. Securely access logins, secure notes, and other vault items in workflows.",
+      "category": "security",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/bitwarden-secrets/bitwarden-secrets-1.0.1.dsext",
+      "sha256": "97a8c2dbcdda614d625206972ef2c181b8223a1d021c77c92ab4c93b2f210bb1",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/bitwarden-secrets/bitwarden-secrets-1.0.1.dsext.sig",
+      "permissions": [
+        "shell",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "cloud-storage-bridge": {
+      "id": "cloud-storage-bridge",
+      "name": "Cloud Storage Bridge",
+      "author": "DeskStride",
+      "description": "Upload, download, list, share, and create folders on Google Drive, OneDrive, or Dropbox. REQUIRES the 'oauth-handler' extension \u2014 pipe accessToken from its OAuth Get Token node into any Cloud Storage Bridge node.",
+      "category": "integrations",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext",
+      "sha256": "e05c125a67417801b0b0431434048545d03c6f43b3ca2c2c306a1738079274df",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "composio-actions": {
+      "id": "composio-actions",
+      "name": "Composio Actions",
+      "author": "DeskStride",
+      "description": "Execute any of Composio's 1000+ pre-authenticated SaaS actions (Gmail, Slack, GitHub, Notion, ...) from one generic node given a tool slug and JSON arguments, instead of building a node per service. See README for the auth/connection model and dependency footprint.",
+      "category": "integrations",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext",
+      "sha256": "c4c7729351cc469fb7ee49582bbe4cbf7797ea1e2bae394810bf3af629cfc7c3",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext.sig",
+      "permissions": [
+        "network",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "crawlee-web-scraping": {
+      "id": "crawlee-web-scraping",
+      "name": "Crawlee Web Scraping",
+      "author": "DeskStride",
+      "description": "Web scraping and crawling using Crawlee library via Node.js bridge. Supports HTTP crawling, browser automation, data extraction, and advanced crawling patterns.",
+      "category": "web",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext",
+      "sha256": "90505182e4d35cfe4e5a68679dccb99ac0080bc5070df9c157949debc6b8daa5",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext.sig",
+      "permissions": [
+        "network",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "crypto-utilities": {
+      "id": "crypto-utilities",
+      "name": "Data Encryption / Crypto Utilities",
+      "author": "DeskStride",
+      "description": "Cryptographic utilities for file/string encryption, signing, key generation, and secure data operations.",
+      "category": "security",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crypto-utilities/crypto-utilities-1.1.1.dsext",
+      "sha256": "8a14c39753bb8643e14a25ffaf5fc6cc1428aa2d8c904990369d24ee8edf7e0e",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crypto-utilities/crypto-utilities-1.1.1.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "csv-json-data-tools": {
+      "id": "csv-json-data-tools",
+      "name": "CSV JSON Data Tools",
+      "author": "DeskStride",
+      "description": "Transform, validate, deduplicate, and profile CSV and JSON datasets.",
+      "category": "data",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/csv-json-data-tools/csv-json-data-tools-1.1.0.dsext",
+      "sha256": "2998c9ce231493576f178513e3e32689026c2dcdfd97fb5783283b12b7253867",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/csv-json-data-tools/csv-json-data-tools-1.1.0.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "database-connector-extension": {
+      "id": "database-connector-extension",
+      "name": "Database Connector Extension",
+      "author": "DeskStride",
+      "description": "Read/write rows in PostgreSQL, MySQL, SQL Server, and SQLite with schema inspection, upserts, and query templates.",
+      "category": "data",
+      "latestVersion": "0.2.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/database-connector-extension/database-connector-extension-0.2.1.dsext",
+      "sha256": "f1d04b61200ed8d9d65432a1a5c1a3825fada4121b0fa26b90e8e61f2cf4ef7f",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/database-connector-extension/database-connector-extension-0.2.1.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "discord-integration": {
+      "id": "discord-integration",
+      "name": "Discord Integration",
+      "author": "DeskStride",
+      "description": "Discord bot integration for sending messages, posting to channels, and uploading files via webhook or bot token.",
+      "category": "integrations",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext",
+      "sha256": "90d16cb29fddd718dd6ac7ae5b116645068cb50d7891a141ab3b469c1e1c0f89",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "document-converter": {
+      "id": "document-converter",
+      "name": "Document Converter",
+      "author": "DeskStride",
+      "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files to clean GitHub-Flavored Markdown using anydoc.",
+      "category": "documents",
+      "latestVersion": "1.2.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/document-converter/document-converter-1.2.0.dsext",
+      "sha256": "2f91081c37ffd4d33c7481e5b651fee7f006376d67fbbb447ae592712f96220f",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/document-converter/document-converter-1.2.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "ffmpeg-media-bridge": {
+      "id": "ffmpeg-media-bridge",
+      "name": "FFmpeg Advanced Media Processing Bridge",
+      "author": "DeskStride",
+      "description": "Advanced audio/video processing powered by FFmpeg: EBU R128 audio normalization, audio extraction, video clipping, high-quality GIF generation, media probing with ffprobe, video thumbnailing, and custom filter graphs.",
+      "category": "media",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/ffmpeg-media-bridge/ffmpeg-media-bridge-1.1.0.dsext",
+      "sha256": "6e6ca3d9cd96d5306ff30f0fd7d42b7d9143d134a7a5b2d8c5582d9477c387a4",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/ffmpeg-media-bridge/ffmpeg-media-bridge-1.1.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "freefilesync-sync": {
+      "id": "freefilesync-sync",
+      "name": "FreeFileSync / RealTimeSync Extension",
+      "author": "DeskStride",
+      "description": "Run FreeFileSync batch jobs and RealTimeSync configurations for automated file synchronization and backup.",
+      "category": "files",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/freefilesync-sync/freefilesync-sync-1.0.2.dsext",
+      "sha256": "57b8925fd98083fab312c85e89dcb40c9e55850f96b9421efc116a47eb8fb72b",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/freefilesync-sync/freefilesync-sync-1.0.2.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "graphql-client-extension": {
+      "id": "graphql-client-extension",
+      "name": "GraphQL Client",
+      "author": "DeskStride",
+      "description": "Send GraphQL queries and mutations to any endpoint and inspect a server's schema. No dependencies; GraphQL errors, HTTP failures and timeouts are reported clearly.",
+      "category": "integrations",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext",
+      "sha256": "8158e6db05ea6daf46be88cf7cac5213c14e46f248e0406ac5fa6d62db9048e0",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "handbrake-video-extension": {
+      "id": "handbrake-video-extension",
+      "name": "HandBrake Video Transcoding",
+      "author": "DeskStride",
+      "description": "Transcode video with HandBrakeCLI using its presets, with live progress, and list the presets available. Requires HandBrakeCLI (the command-line version of HandBrake).",
+      "category": "media",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/handbrake-video-extension/handbrake-video-extension-1.0.0.dsext",
+      "sha256": "2adfa2e5b6eb82be1891682e8c859e1d9d9c3273282fc68d4173dd8f33a82567",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/handbrake-video-extension/handbrake-video-extension-1.0.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "image-processing-extension": {
+      "id": "image-processing-extension",
+      "name": "Image Processing",
+      "author": "DeskStride",
+      "description": "Resize, crop, convert, watermark and thumbnail images with Pillow, one at a time or a whole folder at once. Originals are never overwritten.",
+      "category": "media",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/image-processing-extension/image-processing-extension-1.0.0.dsext",
+      "sha256": "c263c90b0a5e96499426242502cd53183d400c399cc08c7c9b3c2f55e9ed22e0",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/image-processing-extension/image-processing-extension-1.0.0.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "network-measurement": {
+      "id": "network-measurement",
+      "name": "Speedtest + iperf3 Network Measurement Bridge",
+      "author": "DeskStride",
+      "description": "WAN internet speed tests, LAN throughput benchmarks via iperf3, and host ping/latency measurement with JSON or HTML reports.",
+      "category": "network",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/network-measurement/network-measurement-1.0.1.dsext",
+      "sha256": "44dccf6e1e3460bf3a1aaee3ad0b067fb531e80d2150caf01a4a62a652abe7fd",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/network-measurement/network-measurement-1.0.1.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "nmap-rustscan": {
+      "id": "nmap-rustscan",
+      "name": "Nmap / RustScan Network Scanner Bridge",
+      "author": "DeskStride",
+      "description": "Network security scanning extension using Nmap and RustScan for host discovery, port scanning, and service detection.",
+      "category": "network",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nmap-rustscan/nmap-rustscan-1.0.2.dsext",
+      "sha256": "7bdd64762f9fea5113499b9da30dfa5fffab6e4112b83c3726f9c7c93e50ed9f",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nmap-rustscan/nmap-rustscan-1.0.2.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "nosql-database-connector-extension": {
+      "id": "nosql-database-connector-extension",
+      "name": "Non-SQL Database Connector Extension",
+      "author": "DeskStride",
+      "description": "Read/write documents in MongoDB, Redis, DynamoDB, Firestore, and Cosmos DB with query builders, transactions, and schema-less operations.",
+      "category": "data",
+      "latestVersion": "0.2.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nosql-database-connector-extension/nosql-database-connector-extension-0.2.1.dsext",
+      "sha256": "4a6c2284ec2d03c3714edec1f08e9bcc7aae90b70728beac7c693c05efe53568",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nosql-database-connector-extension/nosql-database-connector-extension-0.2.1.dsext.sig",
+      "permissions": [
+        "network",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "oauth-handler": {
+      "id": "oauth-handler",
+      "name": "OAuth 2.0 Handler",
+      "author": "DeskStride",
+      "description": "OAuth 2.0 flow management for authentication and token handling. Provides token acquisition, refresh, and authenticated request wrappers for cloud service integrations.",
+      "category": "integrations",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext",
+      "sha256": "a4716cd7a3306e078356826e79e3d1af6c008db9bac9e1fada3f6eb1bb1df6ac",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext.sig",
+      "permissions": [
+        "network",
+        "httpRoutes"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "pandoc-converter": {
+      "id": "pandoc-converter",
+      "name": "Pandoc Universal Document Converter",
+      "author": "DeskStride",
+      "description": "Convert documents between markdown, HTML, LaTeX, PDF, DOCX, EPUB, Org-mode, and reStructuredText formats using Pandoc.",
+      "category": "documents",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pandoc-converter/pandoc-converter-1.0.1.dsext",
+      "sha256": "233a0e0108c3fe10dd8b9cb1409724e50acbcddbd2f40cb2941b6277e5b6dc9b",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pandoc-converter/pandoc-converter-1.0.1.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "pdf-advanced-tools": {
+      "id": "pdf-advanced-tools",
+      "name": "PDF Advanced Tools",
+      "author": "DeskStride",
+      "description": "Advanced PDF manipulation using pypdfium2 - form filling, page operations, document editing, and more.",
+      "category": "documents",
+      "latestVersion": "2.2.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-advanced-tools/pdf-advanced-tools-2.2.0.dsext",
+      "sha256": "b6551bbc48480fad583c215808f6a7f8715f5878fa9442e01be50d0de80a499e",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-advanced-tools/pdf-advanced-tools-2.2.0.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
     "pdf-tools": {
       "id": "pdf-tools",
       "name": "PDF Tools",
       "author": "DeskStride",
       "description": "Merge and split PDF files, with a PDF Inspector page to check page count, metadata and sizes.",
       "category": "documents",
-      "latestVersion": "1.2.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.0.dsext",
-      "sha256": "226cd0afd088c6f6be0c7211f65deec687e4c25a80f9fc20d8c8506a91137bb2",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.0.dsext.sig",
+      "latestVersion": "1.2.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.1.dsext",
+      "sha256": "62bb7fe9fe2a1e8bd955baeddc9f37c2df69f170fc56aca13b73bd60ba5e7381",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pdf-tools/pdf-tools-1.2.1.dsext.sig",
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null,
+      "permissions": [
+        "filesystem"
+      ]
+    },
+    "prometheus-metrics": {
+      "id": "prometheus-metrics",
+      "name": "Prometheus Metrics Exporter",
+      "author": "DeskStride",
+      "description": "Export workflow execution metrics and expose a Prometheus-compatible /metrics endpoint for monitoring and observability.",
+      "category": "monitoring",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/prometheus-metrics/prometheus-metrics-1.1.0.dsext",
+      "sha256": "7c2d2744e2e8ac75c9c4307272906b41fed975c26504c6c6fd66455d4968f769",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/prometheus-metrics/prometheus-metrics-1.1.0.dsext.sig",
+      "permissions": [
+        "httpRoutes"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "qr-barcode-tools": {
+      "id": "qr-barcode-tools",
+      "name": "QR Code & Barcode Tools",
+      "author": "DeskStride",
+      "description": "Generate and scan QR codes and barcodes. Supports QR codes, Code128, EAN, and other common barcode formats.",
+      "category": "utilities",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/qr-barcode-tools/qr-barcode-tools-1.1.0.dsext",
+      "sha256": "0b6d7a50f2e5bb13aff18b146ef344381ba8548a10796f97ef0c68453b260fde",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/qr-barcode-tools/qr-barcode-tools-1.1.0.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
@@ -34,11 +510,184 @@
       "revoked": false,
       "revokedReason": null
     },
+    "realesrgan-image-upscaling": {
+      "id": "realesrgan-image-upscaling",
+      "name": "Real-ESRGAN / GFPGAN Image Upscaling Bridge",
+      "author": "DeskStride",
+      "description": "Upscale low-resolution photos and illustrations (2x, 4x, 8x) and restore degraded faces using local deep learning models. Supports both NCNN executable and Python backends.",
+      "category": "media",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/realesrgan-image-upscaling/realesrgan-image-upscaling-1.1.0.dsext",
+      "sha256": "26215c1f63bd05de8c8fd59cb0d7fca2cb90efa211e6d58984723f2474168463",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/realesrgan-image-upscaling/realesrgan-image-upscaling-1.1.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "rss-feed-reader": {
+      "id": "rss-feed-reader",
+      "name": "RSS Feed Reader",
+      "author": "DeskStride",
+      "description": "Polls RSS/Atom feeds and emits new items since the last run. Uses feedparser library with persistent state tracking per node instance.",
+      "category": "web",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext",
+      "sha256": "aee3767eaac645d6af70041a9d203233d96eb612f53617303e70ba559c3a663b",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext.sig",
+      "permissions": [
+        "network"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "sentinel-ai-automation": {
+      "id": "sentinel-ai-automation",
+      "name": "Sentinel AI Automation",
+      "author": "DeskStride",
+      "description": "AI-powered browser automation using Sentinel library via Node.js bridge. Describe actions in plain English and let AI figure out selectors, clicks, and data extraction.",
+      "category": "ai",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext",
+      "sha256": "0adb7946ccde49faffcc365cd2c0a138c75d5f435433aa782ff539d61c4c2467",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext.sig",
+      "permissions": [
+        "network",
+        "shell",
+        "secrets",
+        "desktopInput"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "sentry-error-tracking": {
+      "id": "sentry-error-tracking",
+      "name": "Sentry Error Tracking",
+      "author": "DeskStride",
+      "description": "Capture exceptions, add breadcrumbs, and set user/context for Sentry error tracking in workflows.",
+      "category": "monitoring",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext",
+      "sha256": "96025ba0199f1a6f05c9c9fb2f942eb195dd4c1a6b3b7ca32458bedb4687900a",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext.sig",
+      "permissions": [
+        "network",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "sevenzip-archive": {
+      "id": "sevenzip-archive",
+      "name": "7-Zip Archive Management",
+      "author": "DeskStride",
+      "description": "Create, extract, and manage archives using 7-Zip CLI with support for password protection and batch operations.",
+      "category": "files",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sevenzip-archive/sevenzip-archive-1.1.1.dsext",
+      "sha256": "c84097c1c1dea978ef8927801e6357c2e6749b849443a7042f8df670dc21eb38",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sevenzip-archive/sevenzip-archive-1.1.1.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "system-resource-monitor": {
+      "id": "system-resource-monitor",
+      "name": "System Resource Monitoring Extension",
+      "author": "DeskStride",
+      "description": "Cross-platform system resource monitoring using psutil - CPU, memory, disk, network usage and process monitoring.",
+      "category": "monitoring",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/system-resource-monitor/system-resource-monitor-1.1.1.dsext",
+      "sha256": "f524dd4a66a310413a1f9b765cd77e46f140ff10fac32655057fc94a2ab15163",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/system-resource-monitor/system-resource-monitor-1.1.1.dsext.sig",
+      "permissions": [
+        "filesystem"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "text-analysis-nlp": {
+      "id": "text-analysis-nlp",
+      "name": "Text Analysis & NLP",
+      "author": "DeskStride",
+      "description": "Natural language processing nodes for sentiment analysis, entity extraction, text classification, keyword extraction, language detection, and summarization.",
+      "category": "ai",
+      "latestVersion": "1.2.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/text-analysis-nlp/text-analysis-nlp-1.2.0.dsext",
+      "sha256": "5110803055c3bd47f46a3cbc6c62df775d7b58e2f5b08a52b571b830fa0c21e6",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/text-analysis-nlp/text-analysis-nlp-1.2.0.dsext.sig",
+      "permissions": [
+        "network",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "toolsconnector-actions": {
+      "id": "toolsconnector-actions",
+      "name": "ToolsConnector Actions",
+      "author": "DeskStride",
+      "description": "Execute actions from 77+ SaaS connectors (Gmail, Slack, GitHub, Stripe, Notion, Google Workspace, 14 AWS services, and more) via ToolsConnector's unified Python API. One generic node covers the entire 1,578+ action catalog with per-service API keys stored in extension settings. See README for connector list and credential setup.",
+      "category": "integrations",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext",
+      "sha256": "948a36302b7c3072091587e43ca68b77c2e0bd85d5029527f3e84873aac3f4f6",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext.sig",
+      "permissions": [
+        "network",
+        "secrets"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "vlc-media-extension": {
+      "id": "vlc-media-extension",
+      "name": "VLC Media Convert & Control",
+      "author": "DeskStride",
+      "description": "Convert media with VLC (MP4, MKV, WebM, MP3, OGG, FLAC, WAV), play files in VLC and control playback (pause, seek, volume) from a workflow. Requires VLC; no extra libraries.",
+      "category": "media",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/vlc-media-extension/vlc-media-extension-1.0.0.dsext",
+      "sha256": "c1341d76a8d860510c768e11e840f2f3eca9ace77024852481d3beaac556d519",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/vlc-media-extension/vlc-media-extension-1.0.0.dsext.sig",
+      "permissions": [
+        "filesystem",
+        "shell",
+        "network"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
     "webhook-notifier": {
       "id": "webhook-notifier",
       "name": "Webhook Notifier",
       "author": "DeskStride",
-      "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route -- a worked example of Phase 3 settings (incl. secrets) and HTTP routes.",
+      "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route. A worked example of extension settings (including secrets) and HTTP routes.",
       "category": "integrations",
       "latestVersion": "1.0.1",
       "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext",
@@ -48,6 +697,62 @@
         "network",
         "secrets",
         "httpRoutes"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "website-watcher": {
+      "id": "website-watcher",
+      "name": "Website Watcher",
+      "author": "DeskStride",
+      "description": "Watches a URL (optionally scoped to a CSS selector) and reports whether its content changed since the last run, so it can be wired to a Condition + notify node. Design ported from Huginn's Website Agent.",
+      "category": "web",
+      "latestVersion": "1.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext",
+      "sha256": "9651d3e87cabdd085857321de1ccdcd899459f8d8388a6c9392d6dd4e9e28f65",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext.sig",
+      "permissions": [
+        "network"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "yt-dlp-media-download": {
+      "id": "yt-dlp-media-download",
+      "name": "Media Download (yt-dlp)",
+      "author": "DeskStride",
+      "description": "Download media/metadata from the huge range of sites yt-dlp supports, given a URL. Bundles yt-dlp as a pip dependency; ffmpeg still required separately for best-quality merged downloads and Audio Only -- see Settings below and README.",
+      "category": "media",
+      "latestVersion": "2.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext",
+      "sha256": "117dc8f2e52fe825fccd24bf8ae2f69d1bbac74244516892644f6530ac6eb830",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext.sig",
+      "permissions": [
+        "network",
+        "filesystem",
+        "shell"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
+    "zod-schema-validation": {
+      "id": "zod-schema-validation",
+      "name": "Zod Schema Validation",
+      "author": "DeskStride",
+      "description": "Schema validation using zod library via Node.js bridge. Validate JSON data against schemas with runtime type checking and detailed error reporting.",
+      "category": "data",
+      "latestVersion": "1.2.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/zod-schema-validation/zod-schema-validation-1.2.0.dsext",
+      "sha256": "6934c30e11e6dce39baf2a8fa0c1b1f26af48d269173ccbc232727d2b655edea",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/zod-schema-validation/zod-schema-validation-1.2.0.dsext.sig",
+      "permissions": [
+        "shell"
       ],
       "authorProfile": "https://github.com/zelucode",
       "verified": true,

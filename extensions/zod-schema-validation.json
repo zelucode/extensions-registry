@@ -1,0 +1,18 @@
+{
+  "id": "zod-schema-validation",
+  "name": "Zod Schema Validation",
+  "author": "DeskStride",
+  "description": "Schema validation using zod library via Node.js bridge. Validate JSON data against schemas with runtime type checking and detailed error reporting.",
+  "category": "data",
+  "latestVersion": "1.2.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/zod-schema-validation/zod-schema-validation-1.2.0.dsext",
+  "sha256": "6934c30e11e6dce39baf2a8fa0c1b1f26af48d269173ccbc232727d2b655edea",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/zod-schema-validation/zod-schema-validation-1.2.0.dsext.sig",
+  "permissions": [
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

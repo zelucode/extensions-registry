@@ -2,7 +2,7 @@
   "id": "webhook-notifier",
   "name": "Webhook Notifier",
   "author": "DeskStride",
-  "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route -- a worked example of Phase 3 settings (incl. secrets) and HTTP routes.",
+  "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route. A worked example of extension settings (including secrets) and HTTP routes.",
   "category": "integrations",
   "latestVersion": "1.0.1",
   "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext",

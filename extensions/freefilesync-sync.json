@@ -1,0 +1,19 @@
+{
+  "id": "freefilesync-sync",
+  "name": "FreeFileSync / RealTimeSync Extension",
+  "author": "DeskStride",
+  "description": "Run FreeFileSync batch jobs and RealTimeSync configurations for automated file synchronization and backup.",
+  "category": "files",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/freefilesync-sync/freefilesync-sync-1.0.2.dsext",
+  "sha256": "57b8925fd98083fab312c85e89dcb40c9e55850f96b9421efc116a47eb8fb72b",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/freefilesync-sync/freefilesync-sync-1.0.2.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

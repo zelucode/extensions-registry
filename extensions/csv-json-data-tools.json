@@ -1,0 +1,18 @@
+{
+  "id": "csv-json-data-tools",
+  "name": "CSV JSON Data Tools",
+  "author": "DeskStride",
+  "description": "Transform, validate, deduplicate, and profile CSV and JSON datasets.",
+  "category": "data",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/csv-json-data-tools/csv-json-data-tools-1.1.0.dsext",
+  "sha256": "2998c9ce231493576f178513e3e32689026c2dcdfd97fb5783283b12b7253867",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/csv-json-data-tools/csv-json-data-tools-1.1.0.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

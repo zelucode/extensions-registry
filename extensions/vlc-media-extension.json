@@ -1,0 +1,20 @@
+{
+  "id": "vlc-media-extension",
+  "name": "VLC Media Convert & Control",
+  "author": "DeskStride",
+  "description": "Convert media with VLC (MP4, MKV, WebM, MP3, OGG, FLAC, WAV), play files in VLC and control playback (pause, seek, volume) from a workflow. Requires VLC; no extra libraries.",
+  "category": "media",
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/vlc-media-extension/vlc-media-extension-1.0.0.dsext",
+  "sha256": "c1341d76a8d860510c768e11e840f2f3eca9ace77024852481d3beaac556d519",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/vlc-media-extension/vlc-media-extension-1.0.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell",
+    "network"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

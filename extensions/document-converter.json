@@ -1,0 +1,19 @@
+{
+  "id": "document-converter",
+  "name": "Document Converter",
+  "author": "DeskStride",
+  "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files to clean GitHub-Flavored Markdown using anydoc.",
+  "category": "documents",
+  "latestVersion": "1.2.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/document-converter/document-converter-1.2.0.dsext",
+  "sha256": "2f91081c37ffd4d33c7481e5b651fee7f006376d67fbbb447ae592712f96220f",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/document-converter/document-converter-1.2.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

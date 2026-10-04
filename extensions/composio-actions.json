@@ -1,0 +1,19 @@
+{
+  "id": "composio-actions",
+  "name": "Composio Actions",
+  "author": "DeskStride",
+  "description": "Execute any of Composio's 1000+ pre-authenticated SaaS actions (Gmail, Slack, GitHub, Notion, ...) from one generic node given a tool slug and JSON arguments, instead of building a node per service. See README for the auth/connection model and dependency footprint.",
+  "category": "integrations",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext",
+  "sha256": "c4c7729351cc469fb7ee49582bbe4cbf7797ea1e2bae394810bf3af629cfc7c3",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext.sig",
+  "permissions": [
+    "network",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

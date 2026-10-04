@@ -1,0 +1,19 @@
+{
+  "id": "toolsconnector-actions",
+  "name": "ToolsConnector Actions",
+  "author": "DeskStride",
+  "description": "Execute actions from 77+ SaaS connectors (Gmail, Slack, GitHub, Stripe, Notion, Google Workspace, 14 AWS services, and more) via ToolsConnector's unified Python API. One generic node covers the entire 1,578+ action catalog with per-service API keys stored in extension settings. See README for connector list and credential setup.",
+  "category": "integrations",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext",
+  "sha256": "948a36302b7c3072091587e43ca68b77c2e0bd85d5029527f3e84873aac3f4f6",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext.sig",
+  "permissions": [
+    "network",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

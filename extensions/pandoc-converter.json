@@ -1,0 +1,19 @@
+{
+  "id": "pandoc-converter",
+  "name": "Pandoc Universal Document Converter",
+  "author": "DeskStride",
+  "description": "Convert documents between markdown, HTML, LaTeX, PDF, DOCX, EPUB, Org-mode, and reStructuredText formats using Pandoc.",
+  "category": "documents",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pandoc-converter/pandoc-converter-1.0.1.dsext",
+  "sha256": "233a0e0108c3fe10dd8b9cb1409724e50acbcddbd2f40cb2941b6277e5b6dc9b",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/pandoc-converter/pandoc-converter-1.0.1.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

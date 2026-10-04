@@ -1,0 +1,19 @@
+{
+  "id": "handbrake-video-extension",
+  "name": "HandBrake Video Transcoding",
+  "author": "DeskStride",
+  "description": "Transcode video with HandBrakeCLI using its presets, with live progress, and list the presets available. Requires HandBrakeCLI (the command-line version of HandBrake).",
+  "category": "media",
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/handbrake-video-extension/handbrake-video-extension-1.0.0.dsext",
+  "sha256": "2adfa2e5b6eb82be1891682e8c859e1d9d9c3273282fc68d4173dd8f33a82567",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/handbrake-video-extension/handbrake-video-extension-1.0.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

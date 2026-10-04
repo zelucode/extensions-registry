@@ -1,0 +1,20 @@
+{
+  "id": "database-connector-extension",
+  "name": "Database Connector Extension",
+  "author": "DeskStride",
+  "description": "Read/write rows in PostgreSQL, MySQL, SQL Server, and SQLite with schema inspection, upserts, and query templates.",
+  "category": "data",
+  "latestVersion": "0.2.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/database-connector-extension/database-connector-extension-0.2.1.dsext",
+  "sha256": "f1d04b61200ed8d9d65432a1a5c1a3825fada4121b0fa26b90e8e61f2cf4ef7f",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/database-connector-extension/database-connector-extension-0.2.1.dsext.sig",
+  "permissions": [
+    "network",
+    "filesystem",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

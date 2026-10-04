@@ -1,0 +1,18 @@
+{
+  "id": "website-watcher",
+  "name": "Website Watcher",
+  "author": "DeskStride",
+  "description": "Watches a URL (optionally scoped to a CSS selector) and reports whether its content changed since the last run, so it can be wired to a Condition + notify node. Design ported from Huginn's Website Agent.",
+  "category": "web",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext",
+  "sha256": "9651d3e87cabdd085857321de1ccdcd899459f8d8388a6c9392d6dd4e9e28f65",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext.sig",
+  "permissions": [
+    "network"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

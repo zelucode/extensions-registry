@@ -1,0 +1,19 @@
+{
+  "id": "realesrgan-image-upscaling",
+  "name": "Real-ESRGAN / GFPGAN Image Upscaling Bridge",
+  "author": "DeskStride",
+  "description": "Upscale low-resolution photos and illustrations (2x, 4x, 8x) and restore degraded faces using local deep learning models. Supports both NCNN executable and Python backends.",
+  "category": "media",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/realesrgan-image-upscaling/realesrgan-image-upscaling-1.1.0.dsext",
+  "sha256": "26215c1f63bd05de8c8fd59cb0d7fca2cb90efa211e6d58984723f2474168463",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/realesrgan-image-upscaling/realesrgan-image-upscaling-1.1.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "nmap-rustscan",
+  "name": "Nmap / RustScan Network Scanner Bridge",
+  "author": "DeskStride",
+  "description": "Network security scanning extension using Nmap and RustScan for host discovery, port scanning, and service detection.",
+  "category": "network",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nmap-rustscan/nmap-rustscan-1.0.2.dsext",
+  "sha256": "7bdd64762f9fea5113499b9da30dfa5fffab6e4112b83c3726f9c7c93e50ed9f",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nmap-rustscan/nmap-rustscan-1.0.2.dsext.sig",
+  "permissions": [
+    "network",
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

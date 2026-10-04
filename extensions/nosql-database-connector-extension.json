@@ -1,0 +1,19 @@
+{
+  "id": "nosql-database-connector-extension",
+  "name": "Non-SQL Database Connector Extension",
+  "author": "DeskStride",
+  "description": "Read/write documents in MongoDB, Redis, DynamoDB, Firestore, and Cosmos DB with query builders, transactions, and schema-less operations.",
+  "category": "data",
+  "latestVersion": "0.2.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nosql-database-connector-extension/nosql-database-connector-extension-0.2.1.dsext",
+  "sha256": "4a6c2284ec2d03c3714edec1f08e9bcc7aae90b70728beac7c693c05efe53568",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/nosql-database-connector-extension/nosql-database-connector-extension-0.2.1.dsext.sig",
+  "permissions": [
+    "network",
+    "secrets"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

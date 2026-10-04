@@ -1,0 +1,19 @@
+{
+  "id": "oauth-handler",
+  "name": "OAuth 2.0 Handler",
+  "author": "DeskStride",
+  "description": "OAuth 2.0 flow management for authentication and token handling. Provides token acquisition, refresh, and authenticated request wrappers for cloud service integrations.",
+  "category": "integrations",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext",
+  "sha256": "a4716cd7a3306e078356826e79e3d1af6c008db9bac9e1fada3f6eb1bb1df6ac",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext.sig",
+  "permissions": [
+    "network",
+    "httpRoutes"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

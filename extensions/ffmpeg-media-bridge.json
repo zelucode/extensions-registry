@@ -1,0 +1,19 @@
+{
+  "id": "ffmpeg-media-bridge",
+  "name": "FFmpeg Advanced Media Processing Bridge",
+  "author": "DeskStride",
+  "description": "Advanced audio/video processing powered by FFmpeg: EBU R128 audio normalization, audio extraction, video clipping, high-quality GIF generation, media probing with ffprobe, video thumbnailing, and custom filter graphs.",
+  "category": "media",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/ffmpeg-media-bridge/ffmpeg-media-bridge-1.1.0.dsext",
+  "sha256": "6e6ca3d9cd96d5306ff30f0fd7d42b7d9143d134a7a5b2d8c5582d9477c387a4",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/ffmpeg-media-bridge/ffmpeg-media-bridge-1.1.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

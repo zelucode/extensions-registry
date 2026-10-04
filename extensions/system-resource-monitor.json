@@ -1,0 +1,18 @@
+{
+  "id": "system-resource-monitor",
+  "name": "System Resource Monitoring Extension",
+  "author": "DeskStride",
+  "description": "Cross-platform system resource monitoring using psutil - CPU, memory, disk, network usage and process monitoring.",
+  "category": "monitoring",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/system-resource-monitor/system-resource-monitor-1.1.1.dsext",
+  "sha256": "f524dd4a66a310413a1f9b765cd77e46f140ff10fac32655057fc94a2ab15163",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/system-resource-monitor/system-resource-monitor-1.1.1.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

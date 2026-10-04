@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://automation-os-extensions-registry/schema/extension-entry.schema.json",
-  "title": "Automation OS Extension Registry Entry",
-  "description": "One entry describing a single published .aosext extension. The package file itself is never stored in this repo. downloadUrl may point at ANY public host: an author's own repo/release, or a shared packaged-packages repo holding only built packages (see the README section Two ways to host a package). See docs/roadmap/RND_EXTENSION_REGISTRY.md in the automation-os repo for the full design.",
+  "$id": "https://deskstride-extensions-registry/schema/extension-entry.schema.json",
+  "title": "DeskStride Extension Registry Entry",
+  "description": "One entry describing a single published .dsext extension. The package file itself is never stored in this repo. downloadUrl may point at ANY public host: an author's own repo/release, or a shared packaged-packages repo holding only built packages (see the README section Two ways to host a package).",
   "type": "object",
   "required": [
     "id",
@@ -62,7 +62,7 @@
     "downloadUrl": {
       "type": "string",
       "format": "uri",
-      "description": "Direct download URL for the .aosext file matching latestVersion."
+      "description": "Direct download URL for the .dsext file matching latestVersion."
     },
     "sigUrl": {
       "type": ["string", "null"],
@@ -71,7 +71,7 @@
     },
     "sha256": {
       "type": "string",
-      "description": "SHA-256 of the .aosext file at downloadUrl, lowercase hex.",
+      "description": "SHA-256 of the .dsext file at downloadUrl, lowercase hex.",
       "pattern": "^[a-f0-9]{64}$"
     },
     "permissions": {

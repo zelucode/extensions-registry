@@ -1,0 +1,18 @@
+{
+  "id": "advanced-excel-tools",
+  "name": "Advanced Excel Tools",
+  "author": "DeskStride",
+  "description": "Advanced Excel processing nodes: pivot tables, conditional formatting, chart generation, formula application, cell styling, column auto-fit, sheet protection, and XLS-to-XLSX conversion.",
+  "category": "documents",
+  "latestVersion": "1.1.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/advanced-excel-tools/advanced-excel-tools-1.1.0.dsext",
+  "sha256": "893c155633ad4ca616327022900386f546d5bdc8d5a0c6db24f7f605339f781c",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/advanced-excel-tools/advanced-excel-tools-1.1.0.dsext.sig",
+  "permissions": [
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}

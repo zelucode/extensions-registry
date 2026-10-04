@@ -1,0 +1,19 @@
+{
+  "id": "argos-translate",
+  "name": "Argos Translate",
+  "author": "DeskStride",
+  "description": "Offline neural machine translation using Argos Translate. Translate text between languages using locally installed models. Models must be downloaded and installed separately via the provided nodes.",
+  "category": "ai",
+  "latestVersion": "1.0.4",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext",
+  "sha256": "030436842c844a0206d0f1238eb62a95ca0c81ba30da4e8d3030176a2a7b1404",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext.sig",
+  "permissions": [
+    "network",
+    "filesystem"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}
