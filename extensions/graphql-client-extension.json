@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Send GraphQL queries and mutations to any endpoint and inspect a server's schema. No dependencies; GraphQL errors, HTTP failures and timeouts are reported clearly.",
   "category": "integrations",
-  "latestVersion": "1.0.0",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext",
-  "sha256": "8158e6db05ea6daf46be88cf7cac5213c14e46f248e0406ac5fa6d62db9048e0",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext.sig",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.1.dsext",
+  "sha256": "9dac49bdde17d605c8bacf33a5e1bb0a7675fbc057b17bde164fec66af414e55",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.1.dsext.sig",
   "permissions": [
     "network",
     "filesystem"
@@ -15,5 +15,12 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "graphql_introspect",
+    "graphql_mutation",
+    "graphql_query"
+  ],
+  "minAppVersion": "0.9.0",
+  "requiresInternet": true
 }

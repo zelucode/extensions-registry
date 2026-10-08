@@ -15,5 +15,10 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "freefilesync_run_batch",
+    "freefilesync_run_realtime"
+  ],
+  "minAppVersion": "0.11.0"
 }

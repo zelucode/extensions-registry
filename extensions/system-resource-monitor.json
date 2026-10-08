@@ -14,5 +14,16 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "psutil==5.9.8"
+  ],
+  "nodeTypes": [
+    "system_get_cpu_usage",
+    "system_get_disk_usage",
+    "system_get_memory_usage",
+    "system_list_processes",
+    "system_wait_for_resource_threshold"
+  ],
+  "minAppVersion": "0.11.0"
 }

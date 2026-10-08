@@ -4,15 +4,23 @@
   "author": "DeskStride",
   "description": "Watches a URL (optionally scoped to a CSS selector) and reports whether its content changed since the last run, so it can be wired to a Condition + notify node. Design ported from Huginn's Website Agent.",
   "category": "web",
-  "latestVersion": "1.1.0",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext",
-  "sha256": "9651d3e87cabdd085857321de1ccdcd899459f8d8388a6c9392d6dd4e9e28f65",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext.sig",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.1.dsext",
+  "sha256": "bc15fd84db0301cada6bcee0e695b6f40b7101da09448cde76a2276aa5a3b5a6",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.1.dsext.sig",
   "permissions": [
     "network"
   ],
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "beautifulsoup4==4.12.3"
+  ],
+  "nodeTypes": [
+    "watch_website"
+  ],
+  "minAppVersion": "0.16.0",
+  "requiresInternet": true
 }

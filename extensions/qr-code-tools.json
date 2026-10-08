@@ -15,5 +15,15 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "npmDependencies": [
+    "qrcode@1.5.4",
+    "jimp@1.6.1",
+    "jsqr@1.4.0"
+  ],
+  "nodeTypes": [
+    "generate_qr_code",
+    "read_qr_code"
+  ],
+  "minAppVersion": "0.16.0"
 }

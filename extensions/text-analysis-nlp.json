@@ -15,5 +15,18 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "textblob==0.17.1",
+    "spacy==3.7.2"
+  ],
+  "nodeTypes": [
+    "nlp_analyze_sentiment",
+    "nlp_classify_text",
+    "nlp_detect_language",
+    "nlp_extract_entities",
+    "nlp_extract_keywords",
+    "nlp_summarize_text"
+  ],
+  "minAppVersion": "0.9.0"
 }

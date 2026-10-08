@@ -14,5 +14,13 @@
   "revokedReason": null,
   "permissions": [
     "filesystem"
-  ]
+  ],
+  "pipDependencies": [
+    "pypdf==4.2.0"
+  ],
+  "nodeTypes": [
+    "merge_pdf",
+    "split_pdf"
+  ],
+  "minAppVersion": "0.9.0"
 }

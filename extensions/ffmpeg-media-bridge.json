@@ -15,5 +15,15 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "ffmpeg_create_gif",
+    "ffmpeg_cut_media",
+    "ffmpeg_extract_audio",
+    "ffmpeg_generate_thumbnail",
+    "ffmpeg_normalize_audio",
+    "ffmpeg_probe_media",
+    "ffmpeg_run_custom_filter"
+  ],
+  "minAppVersion": "0.9.0"
 }

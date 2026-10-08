@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "AI-powered browser automation using Sentinel library via Node.js bridge. Describe actions in plain English and let AI figure out selectors, clicks, and data extraction.",
   "category": "ai",
-  "latestVersion": "1.0.2",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext",
-  "sha256": "0adb7946ccde49faffcc365cd2c0a138c75d5f435433aa782ff539d61c4c2467",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext.sig",
+  "latestVersion": "1.0.3",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.3.dsext",
+  "sha256": "941ca45e75696d32bb0ab2dca8e04c32d23cad3bf11fd853894a310eb9a6f334",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.3.dsext.sig",
   "permissions": [
     "network",
     "shell",
@@ -17,5 +17,15 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "npmDependencies": [
+    "@isoldex/sentinel@4.1.7",
+    "playwright@1.63.0"
+  ],
+  "nodeTypes": [
+    "ai_automate"
+  ],
+  "minAppVersion": "0.16.0",
+  "attended": true,
+  "requiresInternet": true
 }

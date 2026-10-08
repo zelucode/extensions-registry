@@ -14,5 +14,12 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "npmDependencies": [
+    "zod@3.24.2"
+  ],
+  "nodeTypes": [
+    "validate_schema"
+  ],
+  "minAppVersion": "0.16.0"
 }

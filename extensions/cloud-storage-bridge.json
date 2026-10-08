@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Upload, download, list, share, and create folders on Google Drive, OneDrive, or Dropbox. REQUIRES the 'oauth-handler' extension \u2014 pipe accessToken from its OAuth Get Token node into any Cloud Storage Bridge node.",
   "category": "integrations",
-  "latestVersion": "1.0.2",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext",
-  "sha256": "e05c125a67417801b0b0431434048545d03c6f43b3ca2c2c306a1738079274df",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext.sig",
+  "latestVersion": "1.0.3",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.3.dsext",
+  "sha256": "8fd13e482b6a06c78a2a4e97b6f18b66bc72d5ead005ca62ca389e16d70b4e29",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.3.dsext.sig",
   "permissions": [
     "network",
     "filesystem",
@@ -16,5 +16,17 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "requests==2.31.0"
+  ],
+  "nodeTypes": [
+    "cloudstorage_create_folder",
+    "cloudstorage_download_file",
+    "cloudstorage_list_files",
+    "cloudstorage_share_file",
+    "cloudstorage_upload_file"
+  ],
+  "minAppVersion": "0.9.0",
+  "requiresInternet": true
 }

@@ -14,5 +14,17 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "Pillow==10.4.0"
+  ],
+  "nodeTypes": [
+    "image_batch_process",
+    "image_convert",
+    "image_crop",
+    "image_resize",
+    "image_thumbnail",
+    "image_watermark"
+  ],
+  "minAppVersion": "0.9.0"
 }

@@ -14,5 +14,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "prometheus-client==0.19.0"
+  ],
+  "nodeTypes": [
+    "prometheus_record_counter",
+    "prometheus_record_gauge",
+    "prometheus_record_histogram"
+  ],
+  "minAppVersion": "0.11.0"
 }

@@ -15,5 +15,12 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "firecrawl-anydoc==0.2.4"
+  ],
+  "nodeTypes": [
+    "convert_document"
+  ],
+  "minAppVersion": "0.16.0"
 }

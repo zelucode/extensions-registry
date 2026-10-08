@@ -14,5 +14,17 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "qrcode==7.4.2",
+    "pyzbar==0.1.9",
+    "Pillow==10.0.0",
+    "python-barcode==0.15.1"
+  ],
+  "nodeTypes": [
+    "barcode_generate",
+    "qr_barcode_scan",
+    "qr_generate"
+  ],
+  "minAppVersion": "0.11.0"
 }

@@ -16,5 +16,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "python-nmap==0.7.1"
+  ],
+  "nodeTypes": [
+    "nmap_check_port_open",
+    "nmap_discover_hosts",
+    "nmap_scan_ports"
+  ],
+  "minAppVersion": "0.9.0"
 }

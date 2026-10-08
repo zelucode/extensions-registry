@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Web scraping and crawling using Crawlee library via Node.js bridge. Supports HTTP crawling, browser automation, data extraction, and advanced crawling patterns.",
   "category": "web",
-  "latestVersion": "1.0.1",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext",
-  "sha256": "90505182e4d35cfe4e5a68679dccb99ac0080bc5070df9c157949debc6b8daa5",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext.sig",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.2.dsext",
+  "sha256": "f1ce8c9d22ada08b79a2973b405f5d2032b612ffcf6d8e1199f563aee4f5aa27",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.2.dsext.sig",
   "permissions": [
     "network",
     "shell"
@@ -15,5 +15,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "npmDependencies": [
+    "crawlee@3.18.2"
+  ],
+  "nodeTypes": [
+    "crawl_website",
+    "scrape_url"
+  ],
+  "minAppVersion": "0.16.0",
+  "requiresInternet": true
 }

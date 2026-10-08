@@ -109,12 +109,12 @@
     "pipDependencies": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "Python packages installed with the extension, as written in the manifest. Omitted when none."
+      "description": "Extra components installed with the extension, as written in the manifest. Omitted when none."
     },
     "npmDependencies": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "npm packages installed with the extension (needs Node.js on PATH). Omitted when none."
+      "description": "Extra components installed with the extension (needs Node.js installed). Omitted when none."
     },
     "verified": {
       "type": "boolean",

@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route. A worked example of extension settings (including secrets) and HTTP routes.",
   "category": "integrations",
-  "latestVersion": "1.0.1",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext",
-  "sha256": "48309478f3a38527d6dc564e274a2d8538255aafd97abeaf8a2cb0613602c328",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext.sig",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.2.dsext",
+  "sha256": "2830175a437e25702d4d29a024883242233215a7a2ad9ae816fa60a4dfd5211a",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.2.dsext.sig",
   "permissions": [
     "network",
     "secrets",
@@ -16,5 +16,13 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "httpx==0.28.1"
+  ],
+  "nodeTypes": [
+    "notify_webhook"
+  ],
+  "minAppVersion": "0.11.0",
+  "requiresInternet": true
 }

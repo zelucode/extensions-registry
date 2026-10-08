@@ -15,5 +15,10 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "gfpgan_restore_faces",
+    "realesrgan_upscale_image"
+  ],
+  "minAppVersion": "0.9.0"
 }

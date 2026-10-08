@@ -15,5 +15,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "platforms": [
+    "windows"
+  ],
+  "nodeTypes": [
+    "audacity_apply_effect",
+    "audacity_export_folder",
+    "audacity_normalize"
+  ],
+  "minAppVersion": "0.9.0"
 }

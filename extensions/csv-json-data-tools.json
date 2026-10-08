@@ -14,5 +14,15 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "jsonschema==4.23.0"
+  ],
+  "nodeTypes": [
+    "csv_json_convert_dataset",
+    "csv_json_deduplicate_records",
+    "csv_json_map_records",
+    "csv_json_profile_dataset"
+  ],
+  "minAppVersion": "0.9.0"
 }

@@ -4,15 +4,23 @@
   "author": "DeskStride",
   "description": "Polls RSS/Atom feeds and emits new items since the last run. Uses feedparser library with persistent state tracking per node instance.",
   "category": "web",
-  "latestVersion": "1.1.0",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext",
-  "sha256": "aee3767eaac645d6af70041a9d203233d96eb612f53617303e70ba559c3a663b",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext.sig",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.1.dsext",
+  "sha256": "6d8e4c4479c00d25ebdffb8c27cdca25354a688f06ec2da980ef79e5871a3d28",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.1.dsext.sig",
   "permissions": [
     "network"
   ],
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "feedparser==6.0.14"
+  ],
+  "nodeTypes": [
+    "read_rss_feed"
+  ],
+  "minAppVersion": "0.16.0",
+  "requiresInternet": true
 }

@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Download media/metadata from the huge range of sites yt-dlp supports, given a URL. Bundles yt-dlp as a pip dependency; ffmpeg still required separately for best-quality merged downloads and Audio Only -- see Settings below and README.",
   "category": "media",
-  "latestVersion": "2.1.0",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext",
-  "sha256": "117dc8f2e52fe825fccd24bf8ae2f69d1bbac74244516892644f6530ac6eb830",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext.sig",
+  "latestVersion": "2.1.1",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.1.dsext",
+  "sha256": "59b21104299d77e3ee30fdbfe42f0f99f161a1d6709334d46147035a04faf9fc",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.1.dsext.sig",
   "permissions": [
     "network",
     "filesystem",
@@ -16,5 +16,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "yt-dlp==2026.08.19"
+  ],
+  "nodeTypes": [
+    "download_media",
+    "get_media_info"
+  ],
+  "minAppVersion": "0.9.0",
+  "requiresInternet": true
 }

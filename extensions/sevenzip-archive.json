@@ -16,5 +16,11 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "sevenzip_create_archive",
+    "sevenzip_extract_archive",
+    "sevenzip_list_archive"
+  ],
+  "minAppVersion": "0.11.0"
 }

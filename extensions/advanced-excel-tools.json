@@ -14,5 +14,20 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "openpyxl==3.1.5",
+    "xlrd==1.2.0"
+  ],
+  "nodeTypes": [
+    "advxl_apply_formula",
+    "advxl_autofit_columns",
+    "advxl_conditional_format",
+    "advxl_convert_xls",
+    "advxl_generate_chart",
+    "advxl_pivot_table",
+    "advxl_protect_sheet",
+    "advxl_set_cell_style"
+  ],
+  "minAppVersion": "0.9.0"
 }

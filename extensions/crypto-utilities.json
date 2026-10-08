@@ -14,5 +14,19 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "cryptography==41.0.7"
+  ],
+  "nodeTypes": [
+    "crypto_decrypt_file",
+    "crypto_decrypt_string",
+    "crypto_derive_key",
+    "crypto_encrypt_file",
+    "crypto_encrypt_string",
+    "crypto_generate_keypair",
+    "crypto_sign_data",
+    "crypto_verify_signature"
+  ],
+  "minAppVersion": "0.11.0"
 }

@@ -16,5 +16,11 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "nodeTypes": [
+    "vlc_control",
+    "vlc_convert",
+    "vlc_play"
+  ],
+  "minAppVersion": "0.9.0"
 }

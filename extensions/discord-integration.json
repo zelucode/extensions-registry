@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Discord bot integration for sending messages, posting to channels, and uploading files via webhook or bot token.",
   "category": "integrations",
-  "latestVersion": "1.0.2",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext",
-  "sha256": "90d16cb29fddd718dd6ac7ae5b116645068cb50d7891a141ab3b469c1e1c0f89",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext.sig",
+  "latestVersion": "1.0.3",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.3.dsext",
+  "sha256": "b5fde3d432272faa54d710f081a18bf3a06bdbb73dfe3d21484e6171bab4add5",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.3.dsext.sig",
   "permissions": [
     "network",
     "filesystem",
@@ -16,5 +16,15 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "discord.py==2.3.2"
+  ],
+  "nodeTypes": [
+    "discord_post_channel",
+    "discord_send_message",
+    "discord_upload_file"
+  ],
+  "minAppVersion": "0.11.0",
+  "requiresInternet": true
 }

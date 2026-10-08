@@ -15,5 +15,18 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "pymongo==4.8.0",
+    "redis==5.0.1",
+    "boto3==1.34.0",
+    "google-cloud-firestore==2.13.0",
+    "azure-cosmos==4.5.1"
+  ],
+  "nodeTypes": [
+    "nosql_execute_command",
+    "nosql_find_documents",
+    "nosql_upsert_document"
+  ],
+  "minAppVersion": "0.9.0"
 }

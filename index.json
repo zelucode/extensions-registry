@@ -16,7 +16,22 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "openpyxl==3.1.5",
+        "xlrd==1.2.0"
+      ],
+      "nodeTypes": [
+        "advxl_apply_formula",
+        "advxl_autofit_columns",
+        "advxl_conditional_format",
+        "advxl_convert_xls",
+        "advxl_generate_chart",
+        "advxl_pivot_table",
+        "advxl_protect_sheet",
+        "advxl_set_cell_style"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "argos-translate": {
       "id": "argos-translate",
@@ -24,10 +39,10 @@
       "author": "DeskStride",
       "description": "Offline neural machine translation using Argos Translate. Translate text between languages using locally installed models. Models must be downloaded and installed separately via the provided nodes.",
       "category": "ai",
-      "latestVersion": "1.0.4",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext",
-      "sha256": "030436842c844a0206d0f1238eb62a95ca0c81ba30da4e8d3030176a2a7b1404",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext.sig",
+      "latestVersion": "1.0.5",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.5.dsext",
+      "sha256": "c633edce30326c33c0e747d8334ee3240c818f818e83e83fa1fa6a051a90e4f7",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.5.dsext.sig",
       "permissions": [
         "network",
         "filesystem"
@@ -35,7 +50,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "argostranslate==1.11.0"
+      ],
+      "nodeTypes": [
+        "argos_install_model",
+        "argos_list_languages",
+        "argos_remove_model",
+        "argos_translate_batch",
+        "argos_translate_text"
+      ],
+      "minAppVersion": "0.9.0",
+      "requiresInternet": true
     },
     "audacity-batch-audio": {
       "id": "audacity-batch-audio",
@@ -54,7 +81,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "platforms": [
+        "windows"
+      ],
+      "nodeTypes": [
+        "audacity_apply_effect",
+        "audacity_export_folder",
+        "audacity_normalize"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "bitwarden-secrets": {
       "id": "bitwarden-secrets",
@@ -73,7 +109,13 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "bitwarden_get_field",
+        "bitwarden_get_login",
+        "bitwarden_get_note"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "cloud-storage-bridge": {
       "id": "cloud-storage-bridge",
@@ -81,10 +123,10 @@
       "author": "DeskStride",
       "description": "Upload, download, list, share, and create folders on Google Drive, OneDrive, or Dropbox. REQUIRES the 'oauth-handler' extension \u2014 pipe accessToken from its OAuth Get Token node into any Cloud Storage Bridge node.",
       "category": "integrations",
-      "latestVersion": "1.0.2",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext",
-      "sha256": "e05c125a67417801b0b0431434048545d03c6f43b3ca2c2c306a1738079274df",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.2.dsext.sig",
+      "latestVersion": "1.0.3",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.3.dsext",
+      "sha256": "8fd13e482b6a06c78a2a4e97b6f18b66bc72d5ead005ca62ca389e16d70b4e29",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/cloud-storage-bridge/cloud-storage-bridge-1.0.3.dsext.sig",
       "permissions": [
         "network",
         "filesystem",
@@ -93,7 +135,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "requests==2.31.0"
+      ],
+      "nodeTypes": [
+        "cloudstorage_create_folder",
+        "cloudstorage_download_file",
+        "cloudstorage_list_files",
+        "cloudstorage_share_file",
+        "cloudstorage_upload_file"
+      ],
+      "minAppVersion": "0.9.0",
+      "requiresInternet": true
     },
     "composio-actions": {
       "id": "composio-actions",
@@ -101,10 +155,10 @@
       "author": "DeskStride",
       "description": "Execute any of Composio's 1000+ pre-authenticated SaaS actions (Gmail, Slack, GitHub, Notion, ...) from one generic node given a tool slug and JSON arguments, instead of building a node per service. See README for the auth/connection model and dependency footprint.",
       "category": "integrations",
-      "latestVersion": "1.0.1",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext",
-      "sha256": "c4c7729351cc469fb7ee49582bbe4cbf7797ea1e2bae394810bf3af629cfc7c3",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext.sig",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.2.dsext",
+      "sha256": "f87b0eb1876da72927c59deedf85d5f5e91e7f4c0c9a81bcf39e29a0057dda37",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.2.dsext.sig",
       "permissions": [
         "network",
         "secrets"
@@ -112,7 +166,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "composio==0.21.0"
+      ],
+      "nodeTypes": [
+        "composio_check_connection",
+        "composio_execute_action"
+      ],
+      "minAppVersion": "0.9.0",
+      "requiresInternet": true
     },
     "crawlee-web-scraping": {
       "id": "crawlee-web-scraping",
@@ -120,10 +183,10 @@
       "author": "DeskStride",
       "description": "Web scraping and crawling using Crawlee library via Node.js bridge. Supports HTTP crawling, browser automation, data extraction, and advanced crawling patterns.",
       "category": "web",
-      "latestVersion": "1.0.1",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext",
-      "sha256": "90505182e4d35cfe4e5a68679dccb99ac0080bc5070df9c157949debc6b8daa5",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.1.dsext.sig",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.2.dsext",
+      "sha256": "f1ce8c9d22ada08b79a2973b405f5d2032b612ffcf6d8e1199f563aee4f5aa27",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/crawlee-web-scraping/crawlee-web-scraping-1.0.2.dsext.sig",
       "permissions": [
         "network",
         "shell"
@@ -131,7 +194,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "npmDependencies": [
+        "crawlee@3.18.2"
+      ],
+      "nodeTypes": [
+        "crawl_website",
+        "scrape_url"
+      ],
+      "minAppVersion": "0.16.0",
+      "requiresInternet": true
     },
     "crypto-utilities": {
       "id": "crypto-utilities",
@@ -149,7 +221,21 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "cryptography==41.0.7"
+      ],
+      "nodeTypes": [
+        "crypto_decrypt_file",
+        "crypto_decrypt_string",
+        "crypto_derive_key",
+        "crypto_encrypt_file",
+        "crypto_encrypt_string",
+        "crypto_generate_keypair",
+        "crypto_sign_data",
+        "crypto_verify_signature"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "csv-json-data-tools": {
       "id": "csv-json-data-tools",
@@ -167,7 +253,17 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "jsonschema==4.23.0"
+      ],
+      "nodeTypes": [
+        "csv_json_convert_dataset",
+        "csv_json_deduplicate_records",
+        "csv_json_map_records",
+        "csv_json_profile_dataset"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "database-connector-extension": {
       "id": "database-connector-extension",
@@ -187,7 +283,18 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "psycopg==3.2.3",
+        "pymysql==1.1.1",
+        "pyodbc==5.1.0"
+      ],
+      "nodeTypes": [
+        "db_execute_query",
+        "db_fetch_rows",
+        "db_upsert_row"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "discord-integration": {
       "id": "discord-integration",
@@ -195,10 +302,10 @@
       "author": "DeskStride",
       "description": "Discord bot integration for sending messages, posting to channels, and uploading files via webhook or bot token.",
       "category": "integrations",
-      "latestVersion": "1.0.2",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext",
-      "sha256": "90d16cb29fddd718dd6ac7ae5b116645068cb50d7891a141ab3b469c1e1c0f89",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.2.dsext.sig",
+      "latestVersion": "1.0.3",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.3.dsext",
+      "sha256": "b5fde3d432272faa54d710f081a18bf3a06bdbb73dfe3d21484e6171bab4add5",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/discord-integration/discord-integration-1.0.3.dsext.sig",
       "permissions": [
         "network",
         "filesystem",
@@ -207,7 +314,17 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "discord.py==2.3.2"
+      ],
+      "nodeTypes": [
+        "discord_post_channel",
+        "discord_send_message",
+        "discord_upload_file"
+      ],
+      "minAppVersion": "0.11.0",
+      "requiresInternet": true
     },
     "document-converter": {
       "id": "document-converter",
@@ -226,7 +343,14 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "firecrawl-anydoc==0.2.4"
+      ],
+      "nodeTypes": [
+        "convert_document"
+      ],
+      "minAppVersion": "0.16.0"
     },
     "ffmpeg-media-bridge": {
       "id": "ffmpeg-media-bridge",
@@ -245,7 +369,17 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "ffmpeg_create_gif",
+        "ffmpeg_cut_media",
+        "ffmpeg_extract_audio",
+        "ffmpeg_generate_thumbnail",
+        "ffmpeg_normalize_audio",
+        "ffmpeg_probe_media",
+        "ffmpeg_run_custom_filter"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "freefilesync-sync": {
       "id": "freefilesync-sync",
@@ -264,7 +398,12 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "freefilesync_run_batch",
+        "freefilesync_run_realtime"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "graphql-client-extension": {
       "id": "graphql-client-extension",
@@ -272,10 +411,10 @@
       "author": "DeskStride",
       "description": "Send GraphQL queries and mutations to any endpoint and inspect a server's schema. No dependencies; GraphQL errors, HTTP failures and timeouts are reported clearly.",
       "category": "integrations",
-      "latestVersion": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext",
-      "sha256": "8158e6db05ea6daf46be88cf7cac5213c14e46f248e0406ac5fa6d62db9048e0",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.0.dsext.sig",
+      "latestVersion": "1.0.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.1.dsext",
+      "sha256": "9dac49bdde17d605c8bacf33a5e1bb0a7675fbc057b17bde164fec66af414e55",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/graphql-client-extension/graphql-client-extension-1.0.1.dsext.sig",
       "permissions": [
         "network",
         "filesystem"
@@ -283,7 +422,14 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "graphql_introspect",
+        "graphql_mutation",
+        "graphql_query"
+      ],
+      "minAppVersion": "0.9.0",
+      "requiresInternet": true
     },
     "handbrake-video-extension": {
       "id": "handbrake-video-extension",
@@ -302,7 +448,12 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "handbrake_list_presets",
+        "handbrake_transcode"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "image-processing-extension": {
       "id": "image-processing-extension",
@@ -320,7 +471,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "Pillow==10.4.0"
+      ],
+      "nodeTypes": [
+        "image_batch_process",
+        "image_convert",
+        "image_crop",
+        "image_resize",
+        "image_thumbnail",
+        "image_watermark"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "network-measurement": {
       "id": "network-measurement",
@@ -340,7 +503,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "speedtest-cli==2.1.3"
+      ],
+      "nodeTypes": [
+        "nm_ping_host",
+        "nm_run_iperf3_client",
+        "nm_run_speedtest"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "nmap-rustscan": {
       "id": "nmap-rustscan",
@@ -360,7 +532,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "python-nmap==0.7.1"
+      ],
+      "nodeTypes": [
+        "nmap_check_port_open",
+        "nmap_discover_hosts",
+        "nmap_scan_ports"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "nosql-database-connector-extension": {
       "id": "nosql-database-connector-extension",
@@ -379,7 +560,20 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "pymongo==4.8.0",
+        "redis==5.0.1",
+        "boto3==1.34.0",
+        "google-cloud-firestore==2.13.0",
+        "azure-cosmos==4.5.1"
+      ],
+      "nodeTypes": [
+        "nosql_execute_command",
+        "nosql_find_documents",
+        "nosql_upsert_document"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "oauth-handler": {
       "id": "oauth-handler",
@@ -387,10 +581,10 @@
       "author": "DeskStride",
       "description": "OAuth 2.0 flow management for authentication and token handling. Provides token acquisition, refresh, and authenticated request wrappers for cloud service integrations.",
       "category": "integrations",
-      "latestVersion": "1.1.1",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext",
-      "sha256": "a4716cd7a3306e078356826e79e3d1af6c008db9bac9e1fada3f6eb1bb1df6ac",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.1.dsext.sig",
+      "latestVersion": "1.1.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.2.dsext",
+      "sha256": "9405f00574b7d7aa46ea206940e06bf6c19484a05d91450aaab34567c21dfea0",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/oauth-handler/oauth-handler-1.1.2.dsext.sig",
       "permissions": [
         "network",
         "httpRoutes"
@@ -398,7 +592,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "requests==2.31.0",
+        "requests-oauthlib==1.3.1"
+      ],
+      "nodeTypes": [
+        "oauth_authenticated_request",
+        "oauth_authorize",
+        "oauth_get_token",
+        "oauth_refresh_token"
+      ],
+      "minAppVersion": "0.11.0",
+      "requiresInternet": true
     },
     "pandoc-converter": {
       "id": "pandoc-converter",
@@ -417,7 +623,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "pypandoc==1.13"
+      ],
+      "nodeTypes": [
+        "pandoc_convert_file",
+        "pandoc_convert_text",
+        "pandoc_list_formats"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "pdf-advanced-tools": {
       "id": "pdf-advanced-tools",
@@ -435,7 +650,18 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "formalpdf==0.1.6",
+        "pypdfium2==5.13.0"
+      ],
+      "nodeTypes": [
+        "fill_pdf_form",
+        "flatten_pdf_form",
+        "merge_pdf_pages",
+        "split_pdf_pages"
+      ],
+      "minAppVersion": "0.16.0"
     },
     "pdf-tools": {
       "id": "pdf-tools",
@@ -453,7 +679,15 @@
       "revokedReason": null,
       "permissions": [
         "filesystem"
-      ]
+      ],
+      "pipDependencies": [
+        "pypdf==4.2.0"
+      ],
+      "nodeTypes": [
+        "merge_pdf",
+        "split_pdf"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "prometheus-metrics": {
       "id": "prometheus-metrics",
@@ -471,7 +705,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "prometheus-client==0.19.0"
+      ],
+      "nodeTypes": [
+        "prometheus_record_counter",
+        "prometheus_record_gauge",
+        "prometheus_record_histogram"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "qr-barcode-tools": {
       "id": "qr-barcode-tools",
@@ -489,7 +732,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "qrcode==7.4.2",
+        "pyzbar==0.1.9",
+        "Pillow==10.0.0",
+        "python-barcode==0.15.1"
+      ],
+      "nodeTypes": [
+        "barcode_generate",
+        "qr_barcode_scan",
+        "qr_generate"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "qr-code-tools": {
       "id": "qr-code-tools",
@@ -508,7 +763,17 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "npmDependencies": [
+        "qrcode@1.5.4",
+        "jimp@1.6.1",
+        "jsqr@1.4.0"
+      ],
+      "nodeTypes": [
+        "generate_qr_code",
+        "read_qr_code"
+      ],
+      "minAppVersion": "0.16.0"
     },
     "realesrgan-image-upscaling": {
       "id": "realesrgan-image-upscaling",
@@ -527,7 +792,12 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "gfpgan_restore_faces",
+        "realesrgan_upscale_image"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "rss-feed-reader": {
       "id": "rss-feed-reader",
@@ -535,17 +805,25 @@
       "author": "DeskStride",
       "description": "Polls RSS/Atom feeds and emits new items since the last run. Uses feedparser library with persistent state tracking per node instance.",
       "category": "web",
-      "latestVersion": "1.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext",
-      "sha256": "aee3767eaac645d6af70041a9d203233d96eb612f53617303e70ba559c3a663b",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.0.dsext.sig",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.1.dsext",
+      "sha256": "6d8e4c4479c00d25ebdffb8c27cdca25354a688f06ec2da980ef79e5871a3d28",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/rss-feed-reader/rss-feed-reader-1.1.1.dsext.sig",
       "permissions": [
         "network"
       ],
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "feedparser==6.0.14"
+      ],
+      "nodeTypes": [
+        "read_rss_feed"
+      ],
+      "minAppVersion": "0.16.0",
+      "requiresInternet": true
     },
     "sentinel-ai-automation": {
       "id": "sentinel-ai-automation",
@@ -553,10 +831,10 @@
       "author": "DeskStride",
       "description": "AI-powered browser automation using Sentinel library via Node.js bridge. Describe actions in plain English and let AI figure out selectors, clicks, and data extraction.",
       "category": "ai",
-      "latestVersion": "1.0.2",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext",
-      "sha256": "0adb7946ccde49faffcc365cd2c0a138c75d5f435433aa782ff539d61c4c2467",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.2.dsext.sig",
+      "latestVersion": "1.0.3",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.3.dsext",
+      "sha256": "941ca45e75696d32bb0ab2dca8e04c32d23cad3bf11fd853894a310eb9a6f334",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentinel-ai-automation/sentinel-ai-automation-1.0.3.dsext.sig",
       "permissions": [
         "network",
         "shell",
@@ -566,7 +844,17 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "npmDependencies": [
+        "@isoldex/sentinel@4.1.7",
+        "playwright@1.63.0"
+      ],
+      "nodeTypes": [
+        "ai_automate"
+      ],
+      "minAppVersion": "0.16.0",
+      "attended": true,
+      "requiresInternet": true
     },
     "sentry-error-tracking": {
       "id": "sentry-error-tracking",
@@ -574,10 +862,10 @@
       "author": "DeskStride",
       "description": "Capture exceptions, add breadcrumbs, and set user/context for Sentry error tracking in workflows.",
       "category": "monitoring",
-      "latestVersion": "1.0.1",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext",
-      "sha256": "96025ba0199f1a6f05c9c9fb2f942eb195dd4c1a6b3b7ca32458bedb4687900a",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.1.dsext.sig",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.2.dsext",
+      "sha256": "8b6647c18236aa55a4ca9a20aaa71173c846d325bd30e53d387658becde223fd",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/sentry-error-tracking/sentry-error-tracking-1.0.2.dsext.sig",
       "permissions": [
         "network",
         "secrets"
@@ -585,7 +873,19 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "sentry-sdk==1.39.1"
+      ],
+      "nodeTypes": [
+        "sentry_add_breadcrumb",
+        "sentry_capture_exception",
+        "sentry_capture_message",
+        "sentry_set_context",
+        "sentry_set_user"
+      ],
+      "minAppVersion": "0.11.0",
+      "requiresInternet": true
     },
     "sevenzip-archive": {
       "id": "sevenzip-archive",
@@ -605,7 +905,13 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "sevenzip_create_archive",
+        "sevenzip_extract_archive",
+        "sevenzip_list_archive"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "system-resource-monitor": {
       "id": "system-resource-monitor",
@@ -623,7 +929,18 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "psutil==5.9.8"
+      ],
+      "nodeTypes": [
+        "system_get_cpu_usage",
+        "system_get_disk_usage",
+        "system_get_memory_usage",
+        "system_list_processes",
+        "system_wait_for_resource_threshold"
+      ],
+      "minAppVersion": "0.11.0"
     },
     "text-analysis-nlp": {
       "id": "text-analysis-nlp",
@@ -642,7 +959,20 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "textblob==0.17.1",
+        "spacy==3.7.2"
+      ],
+      "nodeTypes": [
+        "nlp_analyze_sentiment",
+        "nlp_classify_text",
+        "nlp_detect_language",
+        "nlp_extract_entities",
+        "nlp_extract_keywords",
+        "nlp_summarize_text"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "toolsconnector-actions": {
       "id": "toolsconnector-actions",
@@ -650,10 +980,10 @@
       "author": "DeskStride",
       "description": "Execute actions from 77+ SaaS connectors (Gmail, Slack, GitHub, Stripe, Notion, Google Workspace, 14 AWS services, and more) via ToolsConnector's unified Python API. One generic node covers the entire 1,578+ action catalog with per-service API keys stored in extension settings. See README for connector list and credential setup.",
       "category": "integrations",
-      "latestVersion": "1.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext",
-      "sha256": "948a36302b7c3072091587e43ca68b77c2e0bd85d5029527f3e84873aac3f4f6",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.0.dsext.sig",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.1.dsext",
+      "sha256": "3f957b5cd169ef604cafdb74b2490b21c0708832509526917292ec1832a66ab5",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/toolsconnector-actions/toolsconnector-actions-1.1.1.dsext.sig",
       "permissions": [
         "network",
         "secrets"
@@ -661,7 +991,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "toolsconnector==0.3.25"
+      ],
+      "nodeTypes": [
+        "toolsconnector_execute_action",
+        "toolsconnector_list_connectors"
+      ],
+      "minAppVersion": "0.16.0",
+      "requiresInternet": true
     },
     "vlc-media-extension": {
       "id": "vlc-media-extension",
@@ -681,7 +1020,13 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "nodeTypes": [
+        "vlc_control",
+        "vlc_convert",
+        "vlc_play"
+      ],
+      "minAppVersion": "0.9.0"
     },
     "webhook-notifier": {
       "id": "webhook-notifier",
@@ -689,10 +1034,10 @@
       "author": "DeskStride",
       "description": "Sends a workflow event to a configured webhook URL, with an optional self-test receiver route. A worked example of extension settings (including secrets) and HTTP routes.",
       "category": "integrations",
-      "latestVersion": "1.0.1",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext",
-      "sha256": "48309478f3a38527d6dc564e274a2d8538255aafd97abeaf8a2cb0613602c328",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.1.dsext.sig",
+      "latestVersion": "1.0.2",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.2.dsext",
+      "sha256": "2830175a437e25702d4d29a024883242233215a7a2ad9ae816fa60a4dfd5211a",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/webhook-notifier/webhook-notifier-1.0.2.dsext.sig",
       "permissions": [
         "network",
         "secrets",
@@ -701,7 +1046,15 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "httpx==0.28.1"
+      ],
+      "nodeTypes": [
+        "notify_webhook"
+      ],
+      "minAppVersion": "0.11.0",
+      "requiresInternet": true
     },
     "website-watcher": {
       "id": "website-watcher",
@@ -709,17 +1062,25 @@
       "author": "DeskStride",
       "description": "Watches a URL (optionally scoped to a CSS selector) and reports whether its content changed since the last run, so it can be wired to a Condition + notify node. Design ported from Huginn's Website Agent.",
       "category": "web",
-      "latestVersion": "1.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext",
-      "sha256": "9651d3e87cabdd085857321de1ccdcd899459f8d8388a6c9392d6dd4e9e28f65",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.0.dsext.sig",
+      "latestVersion": "1.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.1.dsext",
+      "sha256": "bc15fd84db0301cada6bcee0e695b6f40b7101da09448cde76a2276aa5a3b5a6",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/website-watcher/website-watcher-1.1.1.dsext.sig",
       "permissions": [
         "network"
       ],
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "beautifulsoup4==4.12.3"
+      ],
+      "nodeTypes": [
+        "watch_website"
+      ],
+      "minAppVersion": "0.16.0",
+      "requiresInternet": true
     },
     "yt-dlp-media-download": {
       "id": "yt-dlp-media-download",
@@ -727,10 +1088,10 @@
       "author": "DeskStride",
       "description": "Download media/metadata from the huge range of sites yt-dlp supports, given a URL. Bundles yt-dlp as a pip dependency; ffmpeg still required separately for best-quality merged downloads and Audio Only -- see Settings below and README.",
       "category": "media",
-      "latestVersion": "2.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext",
-      "sha256": "117dc8f2e52fe825fccd24bf8ae2f69d1bbac74244516892644f6530ac6eb830",
-      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.0.dsext.sig",
+      "latestVersion": "2.1.1",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.1.dsext",
+      "sha256": "59b21104299d77e3ee30fdbfe42f0f99f161a1d6709334d46147035a04faf9fc",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/yt-dlp-media-download/yt-dlp-media-download-2.1.1.dsext.sig",
       "permissions": [
         "network",
         "filesystem",
@@ -739,7 +1100,16 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "pipDependencies": [
+        "yt-dlp==2026.08.19"
+      ],
+      "nodeTypes": [
+        "download_media",
+        "get_media_info"
+      ],
+      "minAppVersion": "0.9.0",
+      "requiresInternet": true
     },
     "zod-schema-validation": {
       "id": "zod-schema-validation",
@@ -757,7 +1127,14 @@
       "authorProfile": "https://github.com/zelucode",
       "verified": true,
       "revoked": false,
-      "revokedReason": null
+      "revokedReason": null,
+      "npmDependencies": [
+        "zod@3.24.2"
+      ],
+      "nodeTypes": [
+        "validate_schema"
+      ],
+      "minAppVersion": "0.16.0"
     }
   }
 }

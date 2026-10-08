@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Offline neural machine translation using Argos Translate. Translate text between languages using locally installed models. Models must be downloaded and installed separately via the provided nodes.",
   "category": "ai",
-  "latestVersion": "1.0.4",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext",
-  "sha256": "030436842c844a0206d0f1238eb62a95ca0c81ba30da4e8d3030176a2a7b1404",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.4.dsext.sig",
+  "latestVersion": "1.0.5",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.5.dsext",
+  "sha256": "c633edce30326c33c0e747d8334ee3240c818f818e83e83fa1fa6a051a90e4f7",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/argos-translate/argos-translate-1.0.5.dsext.sig",
   "permissions": [
     "network",
     "filesystem"
@@ -15,5 +15,17 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "argostranslate==1.11.0"
+  ],
+  "nodeTypes": [
+    "argos_install_model",
+    "argos_list_languages",
+    "argos_remove_model",
+    "argos_translate_batch",
+    "argos_translate_text"
+  ],
+  "minAppVersion": "0.9.0",
+  "requiresInternet": true
 }

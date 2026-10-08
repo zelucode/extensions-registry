@@ -4,10 +4,10 @@
   "author": "DeskStride",
   "description": "Execute any of Composio's 1000+ pre-authenticated SaaS actions (Gmail, Slack, GitHub, Notion, ...) from one generic node given a tool slug and JSON arguments, instead of building a node per service. See README for the auth/connection model and dependency footprint.",
   "category": "integrations",
-  "latestVersion": "1.0.1",
-  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext",
-  "sha256": "c4c7729351cc469fb7ee49582bbe4cbf7797ea1e2bae394810bf3af629cfc7c3",
-  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.1.dsext.sig",
+  "latestVersion": "1.0.2",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.2.dsext",
+  "sha256": "f87b0eb1876da72927c59deedf85d5f5e91e7f4c0c9a81bcf39e29a0057dda37",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/composio-actions/composio-actions-1.0.2.dsext.sig",
   "permissions": [
     "network",
     "secrets"
@@ -15,5 +15,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "composio==0.21.0"
+  ],
+  "nodeTypes": [
+    "composio_check_connection",
+    "composio_execute_action"
+  ],
+  "minAppVersion": "0.9.0",
+  "requiresInternet": true
 }

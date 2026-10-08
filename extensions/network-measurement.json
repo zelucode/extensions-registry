@@ -16,5 +16,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "speedtest-cli==2.1.3"
+  ],
+  "nodeTypes": [
+    "nm_ping_host",
+    "nm_run_iperf3_client",
+    "nm_run_speedtest"
+  ],
+  "minAppVersion": "0.9.0"
 }

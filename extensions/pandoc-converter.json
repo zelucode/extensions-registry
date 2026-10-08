@@ -15,5 +15,14 @@
   "authorProfile": "https://github.com/zelucode",
   "verified": true,
   "revoked": false,
-  "revokedReason": null
+  "revokedReason": null,
+  "pipDependencies": [
+    "pypandoc==1.13"
+  ],
+  "nodeTypes": [
+    "pandoc_convert_file",
+    "pandoc_convert_text",
+    "pandoc_list_formats"
+  ],
+  "minAppVersion": "0.9.0"
 }
