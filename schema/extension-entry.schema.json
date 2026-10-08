@@ -79,6 +79,43 @@
       "items": { "type": "string" },
       "description": "Mirror of the permissions declared in the extension's manifest.json. Written by publish tooling; omitted when the manifest declares none."
     },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["windows", "macos", "linux"] },
+      "description": "OSes the extension works on, mirrored from the manifest. Omitted means not declared (not all). The app hides the entry on any other OS."
+    },
+    "attended": {
+      "type": "boolean",
+      "description": "true if a person must be present while it runs. Omitted means not declared."
+    },
+    "requiresInternet": {
+      "type": "boolean",
+      "description": "true if a node needs the network at run time. Omitted means not declared."
+    },
+    "nodeTypes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*$" },
+      "description": "Node types the extension registers, read from its code by the publish tooling."
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 40 },
+      "description": "Search words, mirrored from the manifest."
+    },
+    "pipDependencies": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Python packages installed with the extension, as written in the manifest. Omitted when none."
+    },
+    "npmDependencies": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "npm packages installed with the extension (needs Node.js on PATH). Omitted when none."
+    },
     "verified": {
       "type": "boolean",
       "description": "true only once both signed and reviewed by a registry maintainer.",

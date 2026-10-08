@@ -28,3 +28,8 @@ An entry is only a pointer: `downloadUrl` (and `sigUrl`) can be **any public htt
 
 Either way the install is verified the same way: the app checks the `sha256` pinned in the entry and, when present, the
 `sigUrl` signature. Entries written by the publish tooling also carry `permissions`, mirrored from the manifest.
+
+Entries may also carry optional listing metadata, all mirrored from the manifest or the code and all safe to omit
+(omitted means "not declared"): `minAppVersion`, `platforms`, `attended`, `requiresInternet`, `tags`,
+`pipDependencies`, `npmDependencies` and `nodeTypes`. The app uses `minAppVersion` and `platforms` to hide an
+extension it can't run; the rest is shown on the extension's details.
