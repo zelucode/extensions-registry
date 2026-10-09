@@ -913,6 +913,36 @@
       ],
       "minAppVersion": "0.11.0"
     },
+    "studio-themes": {
+      "id": "studio-themes",
+      "name": "Studio Themes",
+      "author": "DeskStride",
+      "description": "Three polished colour themes for DeskStride: Dusk (dark), Sandstone and Mint Light. Appearance only -- contains no code.",
+      "category": "themes",
+      "latestVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/studio-themes/studio-themes-1.0.0.dsext",
+      "sha256": "a9bbaf85874cd991277647d35f13f670ba116c8a8874b227fece33f2662f83ff",
+      "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/studio-themes/studio-themes-1.0.0.dsext.sig",
+      "minAppVersion": "1.0.2",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "attended": false,
+      "requiresInternet": false,
+      "tags": [
+        "themes",
+        "appearance"
+      ],
+      "contributions": [
+        "themes"
+      ],
+      "authorProfile": "https://github.com/zelucode",
+      "verified": true,
+      "revoked": false,
+      "revokedReason": null
+    },
     "system-resource-monitor": {
       "id": "system-resource-monitor",
       "name": "System Resource Monitoring Extension",
