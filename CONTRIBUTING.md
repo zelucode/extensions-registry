@@ -8,9 +8,12 @@ this registry only points at it.
 
 1. Publish your package as a downloadable file at any public URL (e.g. a GitHub
    Release asset on your own repo, or a shared packages repo; see the README's
-   "Two ways to host a package"). If it's signed (recommended --
-   `extension-cli`'s `keygen`/`sign` commands), publish the detached
-   `.sig` file alongside it.
+   "Two ways to host a package"). Sign it (`extension-cli`'s `keygen`/`sign`
+   commands) and publish the detached `.sig` file alongside it. **In this
+   (official) registry, `sigUrl` is required**, the package must be signed by a
+   DeskStride release key, and `downloadUrl`/`sigUrl` must be https URLs under
+   the official GitHub account; the app refuses anything else. Dependencies in
+   your manifest must be exact pins (`name==1.2.3`, `name@1.2.3`).
 2. Compute its SHA-256: `deskstride_ext_cli.py sha256 your-extension.dsext`.
 3. Add one file at `extensions/<your-id>.json`, matching
    `schema/extension-entry.schema.json`. `id` must match the `id` in your
@@ -22,9 +25,12 @@ this registry only points at it.
    on `id`: a new id is accepted on a first-come basis; updating an
    existing id should come from whoever's `authorProfile` is already on
    file (or the maintainer).
-6. On merge, the maintainer runs `deskstride_ext_cli.py build-index .` to
-   regenerate `index.json` and pushes that too -- `index.json` is a build
-   artifact, never hand-edited.
+6. On merge, the maintainer runs
+   `deskstride_ext_cli.py build-index . --packages-root <packaged repo> --official`
+   to regenerate `index.json` and pushes that too -- `index.json` is a build
+   artifact, never hand-edited. `--official` rejects an unsigned entry, an
+   entry outside the official download locations, and a package whose `.sig`
+   is missing, invalid or not by a release key.
 
 ## Updating a listed extension
 
@@ -35,8 +41,10 @@ separate "publish" step beyond that -- the app reads `index.json` directly.
 ## Revoking a listing
 
 Set `"revoked": true` and a human-readable `"revokedReason"` on the
-affected entry, rebuild the index, push. Installed copies are never
-auto-removed -- users see a warning badge and can uninstall in one click.
+affected entry, rebuild the index, push. The app re-checks the registry when
+someone installs (a revoked entry is refused) and, within about 12 hours, turns
+off an already-installed copy and notifies the user. It is not uninstalled;
+the user can remove it in one click.
 
 ## What review does *not* guarantee
 
