@@ -1,0 +1,40 @@
+{
+  "id": "video-quality-sorter",
+  "name": "Video Quality Sorter",
+  "author": "DeskStride",
+  "description": "Sorts video files into Low / Medium / High folders by resolution, including sub-folders. Uses FFmpeg's ffprobe, found on PATH or in a folder you choose.",
+  "category": "files",
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/video-quality-sorter/video-quality-sorter-1.0.0.dsext",
+  "sha256": "579ba1b503e5ef7c7cb8c2fecfd985603269c37a62893604666fa3fbd19405ab",
+  "sigUrl": "https://raw.githubusercontent.com/zelucode/deskstride-extensions-packaged/main/video-quality-sorter/video-quality-sorter-1.0.0.dsext.sig",
+  "permissions": [
+    "filesystem",
+    "shell"
+  ],
+  "minAppVersion": "1.1.1",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "attended": false,
+  "requiresInternet": false,
+  "tags": [
+    "video",
+    "cleanup",
+    "ffmpeg",
+    "organize"
+  ],
+  "contributions": [
+    "nodes",
+    "templates"
+  ],
+  "nodeTypes": [
+    "vsort_scan_videos"
+  ],
+  "authorProfile": "https://github.com/zelucode",
+  "verified": true,
+  "revoked": false,
+  "revokedReason": null
+}
